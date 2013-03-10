@@ -10,6 +10,7 @@ This code represents a proxy for the wunderground API (http://www.wunderground.c
 What endpoints are supported?
 -----------------------------
 The following features are supported
+
 1. Conditions - Gives the current conditions at a location (http://www.wunderground.com/weather/api/d/docs?d=data/conditions). An overview of the conditions endpoints is availalble at http://localhost:9393/weather/conditions.
 The wunderground api only supports a state/city endpoint for the current conditions. However this weather API will translate Zip Code and Latitude/Longitude prior to calling the wunderground service. Conditions are available at three different endpoints.
 
