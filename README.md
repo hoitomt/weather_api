@@ -12,8 +12,7 @@ What endpoints are supported?
 -----------------------------
 The following features are supported
 
-1. Conditions - Gives the current weather conditions at a location (http://www.wunderground.com/weather/api/d/docs?d=data/conditions). An overview of the conditions endpoints is availalble at [http://localhost:9393/weather/conditions](http://localhost:9393/weather/conditions).
-The wunderground api only supports a state/city endpoint for the current conditions. However this weather API will translate Zip Code and Latitude/Longitude prior to calling the wunderground service. Conditions are available at three different endpoints.
+1. Conditions - The current weather conditions at a location (Reference: [Wunderground Conditions API](http://www.wunderground.com/weather/api/d/docs?d=data/conditions)). The conditions endpoints are availalble at [http://localhost:9393/weather/conditions](http://localhost:9393/weather/conditions). Conditions are available at three different endpoints.
 
   1. Zip Code
     http://localhost:9393/weather/api_key/conditions/z/ZipCode
