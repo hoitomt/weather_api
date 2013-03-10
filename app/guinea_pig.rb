@@ -16,7 +16,9 @@ configure do
 end
 
 class GuineaPig < Sinatra::Application
-
+  before do
+    response['Access-Control-Allow-Origin'] = '*'
+  end
 end
 
 require_relative 'routes/init'
