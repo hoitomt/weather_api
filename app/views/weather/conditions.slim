@@ -1,0 +1,31 @@
+h3 Weather Conditions
+p Retrieve the weather conditions using City and State, Zip code, or Latitude and Longitude
+ul
+  li
+    strong City and State
+    br
+    strong API:&nbsp;
+    'http://#{request.env['HTTP_HOST']}/weather/api_key/conditions/s/StateCode/City
+    br
+    strong Example:&nbsp;
+    a href="http://#{request.env['HTTP_HOST']}/weather/4a5c268c050162e3/conditions/s/WI/Eau_Claire/"
+      'http://#{request.env['HTTP_HOST']}/weather/4a5c268c050162e3/conditions/s/WI/Eau_Claire
+  li
+    strong Zip Code
+    br
+    strong API:&nbsp;
+    'http://#{request.env['HTTP_HOST']}/weather/api_key/conditions/z/ZipCode
+    br
+    strong Example:
+    a href="http://#{request.env['HTTP_HOST']}/weather/4a5c268c050162e3/conditions/z/54701/"
+      'http://#{request.env['HTTP_HOST']}/weather/4a5c268c050162e3/conditions/z/54701
+  li
+    strong Latitude and Longitude
+    br
+    strong API:&nbsp;
+    'http://#{request.env['HTTP_HOST']}/weather/api_key/conditions/g/latitude/longitude
+    br
+    strong Example:&nbsp;
+    a href="http://#{request.env['HTTP_HOST']}/weather/4a5c268c050162e3/conditions/g/44.811349/-91.498494/"
+      'http://#{request.env['HTTP_HOST']}/weather/4a5c268c050162e3/conditions/g/44.811349/-91.498494
+

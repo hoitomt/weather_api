@@ -1,0 +1,287 @@
+I, [2013-03-07T10:42:12.014826 #25558]  INFO -- : Log it
+I, [2013-03-07T10:42:18.448595 #25567]  INFO -- : Log it
+I, [2013-03-08T06:21:47.752791 #6789]  INFO -- : Log it
+I, [2013-03-08T06:57:47.589793 #9859]  INFO -- : Log it
+I, [2013-03-08T06:58:01.953872 #9880]  INFO -- : Log it
+I, [2013-03-08T06:58:08.188330 #9903]  INFO -- : Log it
+I, [2013-03-08T06:58:49.270593 #9958]  INFO -- : Log it
+I, [2013-03-08T07:07:14.239604 #10698]  INFO -- : 
+{
+	"response": {
+		"version": "0.1"
+		,"termsofService": "http://www.wunderground.com/weather/api/d/terms.html"
+		,"features": {
+		"conditions": 1
+		}
+	}
+		,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"San Francisco, CA",
+		"city":"San Francisco",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94101",
+		"latitude":"37.77500916",
+		"longitude":"-122.41825867",
+		"elevation":"47.00000000"
+		},
+		"observation_location": {
+		"full":"SOMA - Near Van Ness, San Francisco, California",
+		"city":"SOMA - Near Van Ness, San Francisco",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.773285",
+		"longitude":"-122.417725",
+		"elevation":"49 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCASANFR58",
+		"observation_time":"Last Updated on March 8, 5:07 AM PST",
+		"observation_time_rfc822":"Fri, 08 Mar 2013 05:07:11 -0800",
+		"observation_epoch":"1362748031",
+		"local_time_rfc822":"Fri, 08 Mar 2013 05:07:14 -0800",
+		"local_epoch":"1362748034",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"47.5 F (8.6 C)",
+		"temp_f":47.5,
+		"temp_c":8.6,
+		"relative_humidity":"87%",
+		"wind_string":"Calm",
+		"wind_dir":"SW",
+		"wind_degrees":215,
+		"wind_mph":0.0,
+		"wind_gust_mph":0,
+		"wind_kph":0.0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1011",
+		"pressure_in":"29.86",
+		"pressure_trend":"+",
+		"dewpoint_string":"44 F (7 C)",
+		"dewpoint_f":44,
+		"dewpoint_c":7,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"48 F (9 C)",
+		"windchill_f":"48",
+		"windchill_c":"9",
+		"feelslike_string":"48 F (9 C)",
+		"feelslike_f":"48",
+		"feelslike_c":"9",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"",
+		"UV":"0",
+		"precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/San_Francisco.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANFR58",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.773285,-122.417725"
+	}
+}
+
+I, [2013-03-08T07:07:43.585012 #10732]  INFO -- : DATA: 
+{
+	"response": {
+		"version": "0.1"
+		,"termsofService": "http://www.wunderground.com/weather/api/d/terms.html"
+		,"features": {
+		"conditions": 1
+		}
+	}
+		,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"San Francisco, CA",
+		"city":"San Francisco",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94101",
+		"latitude":"37.77500916",
+		"longitude":"-122.41825867",
+		"elevation":"47.00000000"
+		},
+		"observation_location": {
+		"full":"SOMA - Near Van Ness, San Francisco, California",
+		"city":"SOMA - Near Van Ness, San Francisco",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.773285",
+		"longitude":"-122.417725",
+		"elevation":"49 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCASANFR58",
+		"observation_time":"Last Updated on March 8, 5:07 AM PST",
+		"observation_time_rfc822":"Fri, 08 Mar 2013 05:07:41 -0800",
+		"observation_epoch":"1362748061",
+		"local_time_rfc822":"Fri, 08 Mar 2013 05:07:43 -0800",
+		"local_epoch":"1362748063",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"47.6 F (8.7 C)",
+		"temp_f":47.6,
+		"temp_c":8.7,
+		"relative_humidity":"87%",
+		"wind_string":"Calm",
+		"wind_dir":"SW",
+		"wind_degrees":215,
+		"wind_mph":0.0,
+		"wind_gust_mph":0,
+		"wind_kph":0.0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1011",
+		"pressure_in":"29.86",
+		"pressure_trend":"+",
+		"dewpoint_string":"44 F (7 C)",
+		"dewpoint_f":44,
+		"dewpoint_c":7,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"48 F (9 C)",
+		"windchill_f":"48",
+		"windchill_c":"9",
+		"feelslike_string":"48 F (9 C)",
+		"feelslike_f":"48",
+		"feelslike_c":"9",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"",
+		"UV":"0",
+		"precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/San_Francisco.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANFR58",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.773285,-122.417725"
+	}
+}
+
+I, [2013-03-08T07:08:17.345473 #10794]  INFO -- : DATA: 
+{
+	"response": {
+		"version": "0.1"
+		,"termsofService": "http://www.wunderground.com/weather/api/d/terms.html"
+		,"features": {
+		"conditions": 1
+		}
+	}
+		,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"San Francisco, CA",
+		"city":"San Francisco",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94101",
+		"latitude":"37.77500916",
+		"longitude":"-122.41825867",
+		"elevation":"47.00000000"
+		},
+		"observation_location": {
+		"full":"SOMA - Near Van Ness, San Francisco, California",
+		"city":"SOMA - Near Van Ness, San Francisco",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.773285",
+		"longitude":"-122.417725",
+		"elevation":"49 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCASANFR58",
+		"observation_time":"Last Updated on March 8, 5:08 AM PST",
+		"observation_time_rfc822":"Fri, 08 Mar 2013 05:08:11 -0800",
+		"observation_epoch":"1362748091",
+		"local_time_rfc822":"Fri, 08 Mar 2013 05:08:17 -0800",
+		"local_epoch":"1362748097",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"47.6 F (8.7 C)",
+		"temp_f":47.6,
+		"temp_c":8.7,
+		"relative_humidity":"87%",
+		"wind_string":"Calm",
+		"wind_dir":"SW",
+		"wind_degrees":215,
+		"wind_mph":0.0,
+		"wind_gust_mph":0,
+		"wind_kph":0.0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1011",
+		"pressure_in":"29.86",
+		"pressure_trend":"+",
+		"dewpoint_string":"44 F (7 C)",
+		"dewpoint_f":44,
+		"dewpoint_c":7,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"48 F (9 C)",
+		"windchill_f":"48",
+		"windchill_c":"9",
+		"feelslike_string":"48 F (9 C)",
+		"feelslike_f":"48",
+		"feelslike_c":"9",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"",
+		"UV":"0",
+		"precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/San_Francisco.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANFR58",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.773285,-122.417725"
+	}
+}
+
+"Data \n{\n\t\"response\": {\n\t\t\"version\": \"0.1\"\n\t\t,\"termsofService\": \"http://www.wunderground.com/weather/api/d/terms.html\"\n\t\t,\"features\": {\n\t\t\"conditions\": 1\n\t\t}\n\t}\n\t\t,\t\"current_observation\": {\n\t\t\"image\": {\n\t\t\"url\":\"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png\",\n\t\t\"title\":\"Weather Underground\",\n\t\t\"link\":\"http://www.wunderground.com\"\n\t\t},\n\t\t\"display_location\": {\n\t\t\"full\":\"San Francisco, CA\",\n\t\t\"city\":\"San Francisco\",\n\t\t\"state\":\"CA\",\n\t\t\"state_name\":\"California\",\n\t\t\"country\":\"US\",\n\t\t\"country_iso3166\":\"US\",\n\t\t\"zip\":\"94101\",\n\t\t\"latitude\":\"37.77500916\",\n\t\t\"longitude\":\"-122.41825867\",\n\t\t\"elevation\":\"47.00000000\"\n\t\t},\n\t\t\"observation_location\": {\n\t\t\"full\":\"SOMA - Near Van Ness, San Francisco, California\",\n\t\t\"city\":\"SOMA - Near Van Ness, San Francisco\",\n\t\t\"state\":\"California\",\n\t\t\"country\":\"US\",\n\t\t\"country_iso3166\":\"US\",\n\t\t\"latitude\":\"37.773285\",\n\t\t\"longitude\":\"-122.417725\",\n\t\t\"elevation\":\"49 ft\"\n\t\t},\n\t\t\"estimated\": {\n\t\t},\n\t\t\"station_id\":\"KCASANFR58\",\n\t\t\"observation_time\":\"Last Updated on March 8, 5:08 AM PST\",\n\t\t\"observation_time_rfc822\":\"Fri, 08 Mar 2013 05:08:41 -0800\",\n\t\t\"observation_epoch\":\"1362748121\",\n\t\t\"local_time_rfc822\":\"Fri, 08 Mar 2013 05:08:51 -0800\",\n\t\t\"local_epoch\":\"1362748131\",\n\t\t\"local_tz_short\":\"PST\",\n\t\t\"local_tz_long\":\"America/Los_Angeles\",\n\t\t\"local_tz_offset\":\"-0800\",\n\t\t\"weather\":\"Mostly Cloudy\",\n\t\t\"temperature_string\":\"47.6 F (8.7 C)\",\n\t\t\"temp_f\":47.6,\n\t\t\"temp_c\":8.7,\n\t\t\"relative_humidity\":\"87%\",\n\t\t\"wind_string\":\"Calm\",\n\t\t\"wind_dir\":\"WNW\",\n\t\t\"wind_degrees\":299,\n\t\t\"wind_mph\":0.0,\n\t\t\"wind_gust_mph\":0,\n\t\t\"wind_kph\":0.0,\n\t\t\"wind_gust_kph\":0,\n\t\t\"pressure_mb\":\"1011\",\n\t\t\"pressure_in\":\"29.86\",\n\t\t\"pressure_trend\":\"+\",\n\t\t\"dewpoint_string\":\"44 F (7 C)\",\n\t\t\"dewpoint_f\":44,\n\t\t\"dewpoint_c\":7,\n\t\t\"heat_index_string\":\"NA\",\n\t\t\"heat_index_f\":\"NA\",\n\t\t\"heat_index_c\":\"NA\",\n\t\t\"windchill_string\":\"48 F (9 C)\",\n\t\t\"windchill_f\":\"48\",\n\t\t\"windchill_c\":\"9\",\n\t\t\"feelslike_string\":\"48 F (9 C)\",\n\t\t\"feelslike_f\":\"48\",\n\t\t\"feelslike_c\":\"9\",\n\t\t\"visibility_mi\":\"10.0\",\n\t\t\"visibility_km\":\"16.1\",\n\t\t\"solarradiation\":\"\",\n\t\t\"UV\":\"0\",\n\t\t\"precip_1hr_string\":\"0.00 in ( 0 mm)\",\n\t\t\"precip_1hr_in\":\"0.00\",\n\t\t\"precip_1hr_metric\":\" 0\",\n\t\t\"precip_today_string\":\"0.00 in (0 mm)\",\n\t\t\"precip_today_in\":\"0.00\",\n\t\t\"precip_today_metric\":\"0\",\n\t\t\"icon\":\"mostlycloudy\",\n\t\t\"icon_url\":\"http://icons-ak.wxug.com/i/c/k/nt_mostlycloudy.gif\",\n\t\t\"forecast_url\":\"http://www.wunderground.com/US/CA/San_Francisco.html\",\n\t\t\"history_url\":\"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANFR58\",\n\t\t\"ob_url\":\"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.773285,-122.417725\"\n\t}\n}\n"
