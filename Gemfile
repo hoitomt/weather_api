@@ -8,6 +8,7 @@ gem 'datamapper'
 gem 'dm-postgres-adapter'
 gem 'slim'
 gem 'rest-client'
+gem 'redcarpet'
 
 group :development do
   gem 'shotgun'

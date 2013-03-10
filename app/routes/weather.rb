@@ -16,7 +16,7 @@ class GuineaPig < Sinatra::Application
     slim :'weather/index', :layout => :'layout/application'
   end
 
-  get '/weather/conditions/*/?' do
+  get '/weather/conditions/?' do
     slim :'weather/conditions', :layout => :'layout/application'
   end
 
